@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+body{
+  background-color:  #2F3C7E;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+  background-color: white;
+  width: 50%;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+.main-container h1{
+  margin: 20px 0px;
+}
+.main-container input{
+  padding: 10px 20px;
+  margin: 15px 0px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+}
+.main-container button{
+  padding: 10px 20px;
+  margin: 10px 0px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #2F3C7E;
+  color: white;
+
+}
+.result{
+ padding: 20px;
+  margin-bottom: 20px 0px;
+}
+.result-container{
+  margin-bottom: 10px;
+  background-color: #2F3C7E;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.clear{
+  margin-bottom: 30px;
+}
+
+h3 span{
+  font-weight: lighter;
+}
