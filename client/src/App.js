@@ -24,8 +24,9 @@ function App() {
 
   function submitHandler() {
     const lowercase = name.trim().toLowerCase();
+
     if (lowercase === '' || rollno === '') {
-      setResult(<h1 style={{ color: 'red' }}>Blank Student name or Password</h1>);
+      setResult(<h1 style={{ color: 'red' }}>Blank Student name or Rollno</h1>);
     }
 
     else if (student && foundRollno && student.name.toLowerCase() === lowercase && student.rollno === rollno) {
@@ -37,8 +38,10 @@ function App() {
       );
     }
     else {
-      setResult(<h1 style={{color:'yellow'}}>Incorrect username or Rollno</h1>);
+      setResult(<h1 style={{color:'brown'}}>Incorrect username or Rollno</h1>);
     }
+
+   
   }
   
   return (

@@ -30,17 +30,23 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Hina Ahmad',
-      rollno: 'BSCS-M1-20-07',
-      CGPA: '3.83',
-      Status: 'PASS'
+      name: 'Student 6',
+      rollno: 'BSCS-M1-20-06',
+      CGPA: 'NULL',
+      Status: 'Left'
     },
     {
-      name: 'Atif',
-      rollno: 'BSCS-M1-20-08',
+      name: 'Student 7',
+      rollno: 'BSCS-M1-20-07',
       CGPA: '3.07',
       Status: 'PASS'
     },
+    {
+        name: 'Atif',
+        rollno: 'BSCS-M1-20-08',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
     {
       name: 'Sohail Akbar',
       rollno: 'BSCS-M1-20-09',
@@ -48,13 +54,13 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Student 9',
-      rollno: 'BSCS-M1-20-09',
+      name: 'Sarmad',
+      rollno: 'BSCS-M1-20-10',
       CGPA: '2.64',
       Status: 'PASS'
     },
     {
-      name: 'Student 10',
+      name: 'Fazeel Ahmad',
       rollno: 'BSCS-M1-20-10',
       CGPA: '2.04',
       Status: 'PASS'
@@ -198,7 +204,7 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Mekh Sheikh',
+      name: 'Student 34',
       rollno: 'BSCS-M1-20-34',
       CGPA: '3.55',
       Status: 'PASS'
@@ -210,7 +216,7 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Fakhira Abdullah',
+      name: 'Student 36',
       rollno: 'BSCS-M1-20-36',
       CGPA: '3.33',
       Status: 'PASS'
@@ -294,8 +300,136 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Muhammad Shahryar Saeed',
-      rollno: 'BSCS-M1-20-60',
+        name: 'Student 50',
+        rollno: 'BSCS-M1-20-50',
+        CGPA: '2.55',
+        Status: 'PASS'
+    },
+    {
+        name: 'Student 51',
+        rollno: 'BSCS-M1-20-51',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 52',
+        rollno: 'BSCS-M1-20-52',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 53',
+        rollno: 'BSCS-M1-20-53',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 54',
+        rollno: 'BSCS-M1-20-54',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 55',
+        rollno: 'BSCS-M1-20-55',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 56',
+        rollno: 'BSCS-M1-20-56',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 57',
+        rollno: 'BSCS-M1-20-57',
+        CGPA: 'NULL',
+        Status: 'Drop out'
+      },
+      {
+        name: 'Student 58',
+        rollno: 'BSCS-M1-20-58',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 59',
+        rollno: 'BSCS-M1-20-59',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Muhammad Shahryar saeed',
+        rollno: 'BSCS-M1-20-60',
+        CGPA: '3.52',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 61',
+        rollno: 'BSCS-M1-20-61',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 62',
+        rollno: 'BSCS-M1-20-62',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 63',
+        rollno: 'BSCS-M1-20-63',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 64',
+        rollno: 'BSCS-M1-20-64',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 65',
+        rollno: 'BSCS-M1-20-65',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 66',
+        rollno: 'BSCS-M1-20-66',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 67',
+        rollno: 'BSCS-M1-20-67',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 68',
+        rollno: 'BSCS-M1-20-68',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 69',
+        rollno: 'BSCS-M1-20-69',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+      {
+        name: 'Student 70',
+        rollno: 'BSCS-M1-20-70',
+        CGPA: '2.55',
+        Status: 'PASS'
+      },
+
+
+    {
+      name: 'Daniyal khan',
+      rollno: 'BSCS-M1-20-71',
       CGPA: '3.52',
       Status: 'PASS'
     }
