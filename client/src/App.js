@@ -16,32 +16,31 @@ function App() {
     setRollno('');
     setResult('');
   }
+  const lowercase = name.toLowerCase();
+  const student = data.find((student) => student.name.toLowerCase() === lowercase);
+  const foundRollno = data.find((student) => student.rollno === rollno);
+
 
 
   function submitHandler() {
-    const lowecase = name.toLowerCase();
-    const student = data.find((student) => student.name.toLowerCase() === lowecase);
-    const Rollno = data.find((student) => student.rollno === rollno)
+    const lowercase = name.trim().toLowerCase();
+    if (lowercase === '' || rollno === '') {
+      setResult(<h1 style={{ color: 'red' }}>Blank Student name or Password</h1>);
+    }
 
-
-    if (student && Rollno) {
+    else if (student && foundRollno && student.name.toLowerCase() === lowercase && student.rollno === rollno) {
       setResult(
         <div className='result-container'>
           <h3>CGPA : <span>{student.CGPA}</span></h3>
           <h3>Status : <span>{student.Status}</span></h3>
-
-
         </div>
-      )
-
+      );
     }
-    else{
-      setResult(<h1>Incorrect username or Rollno</h1>);
+    else {
+      setResult(<h1 style={{color:'yellow'}}>Incorrect username or Rollno</h1>);
     }
-   
-
-
   }
+  
   return (
     <div className="App">
 
@@ -59,6 +58,8 @@ function App() {
         <button className='clear' onClick={Clear}>Clear</button>
 
         {result ? <Results result={result} /> : ''}
+
+        {/* <Results result={result}/> */}
 
 
 

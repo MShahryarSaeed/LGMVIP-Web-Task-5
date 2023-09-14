@@ -198,9 +198,9 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Student 34',
+      name: 'Mekh Sheikh',
       rollno: 'BSCS-M1-20-34',
-      CGPA: '2.30',
+      CGPA: '3.55',
       Status: 'PASS'
     },
     {
@@ -210,9 +210,9 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Student 36',
+      name: 'Fakhira Abdullah',
       rollno: 'BSCS-M1-20-36',
-      CGPA: '2.53',
+      CGPA: '3.33',
       Status: 'PASS'
     },
     {
@@ -222,15 +222,15 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Student 38',
+      name: 'Hafiz Mehmood',
       rollno: 'BSCS-M1-20-38',
       CGPA: '3.31',
       Status: 'PASS'
     },
     {
-      name: 'Student 39',
+      name: 'Arslan Aslam',
       rollno: 'BSCS-M1-20-39',
-      CGPA: '2.28',
+      CGPA: '2.99',
       Status: 'PASS'
     },
     {
@@ -240,13 +240,13 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Student 41',
+      name: 'Usama Nawab',
       rollno: 'BSCS-M1-20-41',
-      CGPA: '2.22',
+      CGPA: '3.22',
       Status: 'PASS'
     },
     {
-      name: 'Student 42',
+      name: 'Saad Ahmad',
       rollno: 'BSCS-M1-20-42',
       CGPA: '2.91',
       Status: 'PASS'
@@ -264,13 +264,13 @@ const data=[
       Status: 'PASS'
     },
     {
-      name: 'Student 45',
+      name: 'Hamza Afzal',
       rollno: 'BSCS-M1-20-45',
       CGPA: '2.63',
       Status: 'PASS'
     },
     {
-      name: 'Student 46',
+      name: 'Muhammad Abubaker',
       rollno: 'BSCS-M1-20-46',
       CGPA: '3.76',
       Status: 'PASS'
