@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Results from './Results';
 
 
-function App() {
+const App=()=>{
 
   const [name, setName] = useState("");
   const [rollno, setRollno] = useState("");
@@ -40,8 +40,6 @@ function App() {
     else {
       setResult(<h1 style={{color:'brown'}}>Incorrect username or Rollno</h1>);
     }
-
-   
   }
   
   return (
@@ -62,7 +60,7 @@ function App() {
 
         {result ? <Results result={result} /> : ''}
 
-        {/* <Results result={result}/> */}
+        
 
 
 
